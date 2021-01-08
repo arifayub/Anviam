@@ -1,0 +1,112 @@
+*{
+	margin: 0; padding: 0;box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+a{text-decoration: none;}
+
+	li{list-style: none;}
+
+	a:hover{text-decoration: none;}
+
+	.nav-item a{
+	color: #fff!important;
+	font-weight: bold;
+}
+
+.header{
+	width:100%;
+	height: 100vh;
+	background-image:url("img/software development.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+/***************Parallax Starts*****************/
+
+.parallexone{
+	width:100%;
+	height: 100vh;
+	background-image:url("img/header.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position:relative;
+}
+.parallextwo{
+	width:100%;
+	height: 100vh;
+	background-image:url("img/desk.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position:relative;
+}
+
+.parallexthree{
+	width:100%;
+	height: 100vh;
+	background-image:url("img/Digital Marketing.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position:relative;
+}
+
+.parallexone h2{
+	position:absolute;
+	left:50%;
+	right:50%;
+	transform: translate(-50%,-50%);
+	top:300px;
+	width:200px;
+	height:90px;
+	padding: 10px;
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+.parallextwo h2{
+	position:absolute;
+	left:50%;
+	right:50%;
+	transform: translate(-50%,-50%);
+	top:300px;
+	width:200px;
+	height:90px;
+	padding: 10px;
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+.parallexthree h2{
+	position:absolute;
+	left:50%;
+	right:50%;
+	transform: translate(-50%,-50%);
+	top:300px;
+	width:200px;
+	height:90px;
+	padding: 10px;
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+.para{
+	width:100%;
+	padding:20px;
+	background-color:black;
+	color: white;
+	font-size:17px;
+
+}
+/***************Parallax Ends*****************/
+
+/***************Three Col Div Starts*****************/
+
+#features p{
+font-size: 1.2rem;
+padding: 1rem 1rem;
+}
+/***************Three Col Div Ends*****************/
+
+/***************Five Col Slider Starts*****************/
+
+
